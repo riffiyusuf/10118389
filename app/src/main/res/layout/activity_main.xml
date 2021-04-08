@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#E8D557"
+    >
+
+    <TextView
+        android:id="@+id/ECU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ECU Racing No.1 di Indonesia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200px"
+        android:textSize="25dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        app:srcCompat="@drawable/ic_baseline_flash_on_24"
+        tools:ignore="VectorDrawableCompat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300px"
+
+
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BRT JUKEN5"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageView"
+        android:textStyle="italic"
+        android:textColor="#CF1002"
+
+        />
+
+    <Button
+        android:id="@+id/profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:layout_below="@id/ECU"
+        android:layout_marginTop="100px"
+        android:layout_marginLeft="250px"
+        android:onClick="KeProfile"
+        />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_below="@id/ECU"
+        android:layout_marginTop="100px"
+        android:layout_marginLeft="550px"
+        android:onClick="KeLogin"
+
+        />
+
+</RelativeLayout>

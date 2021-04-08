@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:background="#E8D557"
+    >
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="208dp"
+        android:layout_height="212dp"
+        app:srcCompat="@drawable/riffi"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="73dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Pofile"
+        android:layout_marginTop="100px"
+
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/Pofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="424dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50px"
+        android:textStyle="bold|italic"
+        android:textSize="100px"
+        />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name : M Riffi Yusuf Hawarry"
+        android:layout_below="@id/foto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80px"
+
+        />
+    <TextView
+        android:id="@+id/nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM : 10118398"
+        android:layout_below="@id/nama"
+        android:layout_centerHorizontal="true"
+
+        />
+    <TextView
+        android:id="@+id/kelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Class : IF-9"
+        android:layout_below="@id/nim"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+        />
+    <TextView
+        android:id="@+id/moto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seorang mahasiswa yang salah jurusan dan belum mengetahui passion nya, tetapi ingin sukses di usia muda :)"
+        android:layout_below="@id/kelas"
+        android:layout_marginTop="80px"
+        android:textStyle="italic"
+        android:textAlignment="center"
+
+
+        />
+
+</RelativeLayout>
